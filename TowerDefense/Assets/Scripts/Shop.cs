@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Shop : MonoBehaviour {
 
+    BuildManager buildManager;
 
+    
 	// Use this for initialization
 	void Start () {
-		
+        buildManager = BuildManager.instance;
 	}
 	
 	// Update is called once per frame
@@ -17,6 +19,11 @@ public class Shop : MonoBehaviour {
 
     public void PurchaseStandardTurret()
     {
+        buildManager.SetTurretToBuild(buildManager.standardTurretPrefab);
+    }
 
+    public void PurchaseMissileLauncherTurret()
+    {
+        buildManager.SetTurretToBuild(buildManager.missileLauncherPrefab);
     }
 }
