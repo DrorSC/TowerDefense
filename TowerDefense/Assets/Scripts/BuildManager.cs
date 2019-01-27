@@ -35,6 +35,7 @@ public class BuildManager : MonoBehaviour {
 
     public GameObject GetTurretToBuild()
     {
+        Debug.Log("BuildManager GetTurretToBuild: " + turretToBuild);
         return turretToBuild;
     }
 

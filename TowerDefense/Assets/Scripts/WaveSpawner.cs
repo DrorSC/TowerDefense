@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class WaveSpawner : MonoBehaviour {
 
     public Transform enemyPrefab;
+    //public Transform yakirEnemyPrefab;
 
     public Transform spawnPoint;
 
@@ -49,5 +50,6 @@ public class WaveSpawner : MonoBehaviour {
     private void SpawnEnemy()
     {
         Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+        //Instantiate(yakirEnemyPrefab, spawnPoint.position, spawnPoint.rotation);
     }
 }
