@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Shop : MonoBehaviour {
 
-    BuildManager buildManager;
+    public TurretBlueprint standardTurret;
+    public TurretBlueprint missileLauncher;
 
+    BuildManager buildManager;
     
 	// Use this for initialization
 	void Start () {

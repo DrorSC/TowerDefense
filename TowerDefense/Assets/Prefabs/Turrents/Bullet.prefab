@@ -97,7 +97,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 70
-  impactEffect: {fileID: 1366833583190816, guid: dd531ab298091824a8fdd7ce6d6da50d,
+  explosionRadius: 0
+  impactEffect: {fileID: 1861696193684804, guid: dd531ab298091824a8fdd7ce6d6da50d,
     type: 2}
 --- !u!135 &135060512403672560
 SphereCollider:
