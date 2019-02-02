@@ -4,7 +4,7 @@ using UnityEngine;
 
 // Unity will save and load the values in this class so we can see them in the inspector in unity
 [System.Serializable]
-public class TurretBlueprint : MonoBehaviour {
+public class TurretBlueprint{
 
     public GameObject prefab;
     public int cost;
